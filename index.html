@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vickma Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/7db1eb2a19.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Home Page -->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <a href="https://imgbb.com/"
+            ><img
+              src="https://i.ibb.co/09xRpy8/VP.png"
+              alt="VP"
+              border="0"
+              class="logo"
+          /></a>
+          <ul id="sidemenu">
+            <h2>
+              <li><a href="#header">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+            </h2>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Video Editor</p>
+          <h1>Hi I'm <span>Vickma</span></h1>
+          <br />
+          <h2>Creator of Vickma Productions</h2>
+        </div>
+      </div>
+    </div>
+    <!-- About Page -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <a href="https://ibb.co/6r1wQNf"
+              ><img src="https://i.ibb.co/sb6R7tM/P2.jpg" alt="P2" border="0"
+            /></a>
+          </div>
+          <div class="about-col-2">
+            <h1 class="subtitle1">About Me</h1>
+            <p>
+              Victor, a Certified Video Editor with a deep passion for
+              storytelling through video. I leverage my 6+ years of experience
+              in the industry to craft compelling content that reasonates with
+              audiences.
+            </p>
+            <div class="tab-titles">
+              <p
+                class="tab-links active-link"
+                onclick="opentab('skills', event)"
+              >
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience', event)">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education', event)">
+                Tools
+              </p>
+            </div>
+            <!-- Skills -->
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Graphic Motions</span><br />
+                  Skilled in keyframe animation to bring visual elements to life
+                  within video projects.
+                </li>
+                <li>
+                  <span>Compositing Specialist</span><br />
+                  Adept at seamlessly merging live-action footage with VFX
+                  elements to achieve a realistic and impactful final product.
+                </li>
+                <li>
+                  <span>Visual Designer</span><br />
+                  Proficient at crafting dynamic graphics and animations that
+                  enhance visual storytelling and brand identity.
+                </li>
+              </ul>
+            </div>
+            <!-- Experience -->
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Graphic Motions</span><br />
+                  6+ Years of Experience in Motion Graphics. (2018 - 2024)
+                </li>
+                <li>
+                  <span>Visual Effects</span><br />
+                  4+ Years of Experience in VFX. (2020 - 2024)
+                </li>
+                <li>
+                  <span>Graphic Design</span><br />
+                  5+ Years of Experience in Image Enhancements (2019 - 2024)
+                </li>
+              </ul>
+            </div>
+            <!-- Tools -->
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>Graphic Motions</span><br />
+                  Adobe Premiere Pro 2024
+                </li>
+                <li>
+                  <span>Visual Effects</span><br />
+                  Adobe After Effects 2022
+                </li>
+                <li>
+                  <span>Graphic Design</span><br />
+                  Adobe Photoshop 2023 & Adobe Lightroom 2023
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Services -->
+    <div id="services">
+      <div class="container">
+        <h1 class="subtitle1">Services</h1>
+        <div class="services-list">
+          <div class="services-item">
+            <i class="fa-solid fa-computer"></i>
+            <h2>Video Editor</h2>
+            <p>
+              Adept at synchronizing footage, audio, and graphics to create
+              seamless narratives. My expertise enables me to create seamless,
+              visually engaging content that effectively communicates the
+              intended message and captivates audiences.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div class="services-item">
+            <i class="fa-brands fa-sketch"></i>
+            <h2>Graphic Designer</h2>
+            <p>
+              Skilled in visual communication, utilizing design principles to
+              create impactful and engaging imagery. Proven ability to create
+              visually compelling graphics that elevate the look and versatility
+              of any project.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div class="services-item">
+            <i class="fa-solid fa-display"></i>
+            <h2>VFX Artist</h2>
+            <p>
+              Skilled in creating and integrating visual effects to elevate the
+              message and emotional impact of video content. Proven ability to
+              enhance video narratives through the strategic implementation of
+              Visual Effects.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="subtitle1">Portfolio</h1>
+        <div class="work-list">
+          <div class="work-item">
+            <a href="https://ibb.co/QkkNmtV"
+              ><img src="https://i.ibb.co/FXXw7C1/VAD.jpg" alt="VAD" border="0"
+            /></a>
+            <div class="layer">
+              <h3>Video Editing</h3>
+              <p>
+                Proficient in creating captivating video content through use of
+                Graphic Motions and VFX for engaging social media audiences.
+                Adept at crafting dynamic and exciting highlight reels that
+                showcase the best and funny moments. Explore My Work:
+              </p>
+              <a
+                href="https://drive.google.com/drive/folders/1kIWwyTe4y0yjPMFUb-tSm1mW4QM-R369?usp=sharing"
+                target="_blank"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work-item">
+            <a href="https://ibb.co/yFLwGr3"
+              ><img src="https://i.ibb.co/qYbtXvZ/GD.jpg" alt="GD" border="0"
+            /></a>
+            <div class="layer">
+              <h3>Graphic Design</h3>
+              <p>
+                Proficient in crafting engaging and impactful visual content,
+                specializing in graphic design for the video production
+                industry. My designs cater to a broad audience and are adaptable
+                for various social media platforms. Explore My Work:
+              </p>
+              <a
+                href="https://drive.google.com/drive/folders/1lES54DQscsqyVQH3gqZcZNaH_rgZn1SO?usp=sharing"
+                target="_blank"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a
+          href="https://drive.google.com/drive/folders/1lLDTuEbujJXQpOD6KDcVXoRbzCyixryY?usp=sharing"
+          target="_blank"
+          class="btn"
+          >See More</a
+        >
+      </div>
+    </div>
+    <!-- Contacts Section -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="subtitle1">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i> victamuk@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i> +254 721 403090</p>
+            <div class="social-icons">
+              <a href="https://www.instagram.com/vickmairl/" target="_blank"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com/vickmairl/" target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://www.instagram.com/vickmairl/" target="_blank"
+                ><i class="fa-brands fa-x-twitter"></i
+              ></a>
+              <a href="https://www.tiktok.com/@vickprods" target="_blank"
+                ><i class="fa-brands fa-tiktok"></i
+              ></a>
+            </div>
+            <a href="images/Profile.jpg" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+                required
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="form-status"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright @ Vickma productions.</p>
+    </div>
+    <!-- Javascript Section -->
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname, event) {
+        for (var tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (var tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0px";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbyGwOcQ1xjWgz9oBq8KvVXuIMoS5WpVUp4dCX-pqKDeQLmarunkFgQizy9lYZtVx5Gf7A/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const formStatus = document.getElementById("form-status");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            console.log("Success!", response);
+            formStatus.textContent = "Message submitted successfully!";
+            setTimeout(function () {
+              formStatus.textContent = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => {
+            console.error("Error!", error.message);
+            formStatus.textContent = "Error submitting the message!";
+          });
+      });
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        var scrollBtn = document.getElementById("scrollBtn");
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          scrollBtn.style.display = "block";
+        } else {
+          scrollBtn.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      }
+    </script>
+    <!-- Scroll to Top Button -->
+    <button onclick="topFunction()" id="scrollBtn" title="Go to top">
+      Top
+    </button>
+  </body>
+</html>
